@@ -1,66 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Welcome to Kevin's Portfolio</title>
+    <title>Welcome to Kevin Lewis' site</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
 
   <body>
-    <header>
-      <section class='title'>
-        <h1>Kevin Lewis' Portfolio</h1>
-      </section>
-      <ul class="nav-bar">
+    <header class='cards'>
+      <h1 id="card1">Kevin Lewis' Portfolio</h1>
+      <section id="card2">
+        <img id="profile-picture" src="./assets/gs_no_shad.jpg" />
+        <img id="profile-header" src="./assets/profile-header.jpg" />
+      </div>
+      <ul id="card3" id="links">
         <a href="#About"><h3>About Me</h3></a>
         <a href="#Work"><h3>Work</h3></a>
-        <a href="#Resume"><h3>Resume</h3></a>
+        <a target="_blank" rel="noopener noreferrer" href="./assets/Kevin_Lewis_Resume_2023.pdf"><h3>Resume</h3></a>
         <a href="#Contact"><h3>Contact</h3></a>
       </ul>
     </header>
 
-<!--a href="#About-Me">About Me</a>-->
-
-    <section>
-      <img id="profile-picture" src="./assets/gs_no_shad.jpg" />
-      <img id="profile-header" src="./assets/profile-header.jpg" />
-      <h2 id="mantra"><em>Yoda had it wrong. The <span>first</span> thing you can do is try.</em></h2>
-    </section>
-    
-    <main> 
+    <p id="mantra"><em><strong>Yoda had it wrong. The <span>first</span> thing you can do is try.</strong></em></p>
+      
+    <main>
       <aside>
         <h2 id="About">About<br>Me</h2>
         <h2 id="Work">Work</h2>
-        <h2 id="Resume">Resume</h2>
-        <h2 id="Contact">Contact<br>Me</h2>
       </aside>
-    
-      <section class="cards">
-        descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text
-      </section>
       
-      <section class="cards">
-        descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text
+      <section class="info">
+        <p>descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text</p>
       </section>
 
-      <section class="cards">
-        descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text
+      <section class="info">
+        <p>descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text</p>
       </section>
+
+      <footer>
+        <h2 id="Contact">Contact<br>Me</h2>
+        
+        <form clas ="form" action="#">
+          <label for="email">
+            Email: <input id="email" placeholder="Enter your email" />
+          </label>
+          
+          <label for="message">
+            Message: <textarea id="message">Your Message</textarea>
+          </label>
+          
+          <input type="submit" value="send message">
+        </form>
+      
+      </footer>
     </main>
-    <footer>
-      <form action="#">
-        <label for="email">
-          Email: <input id="email" placeholder="Enter your email" />
-        </label>
-        <label for="message">
-          Message: <textarea id="message">Your Message</textarea>
-        </label>
-        <input type="submit" value="send message">
-      </form>
-    </footer>
   </body>
-
 </html>

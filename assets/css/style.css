@@ -1,143 +1,142 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Futura Bold', 'Futura', sans-serif;
-  margin: 0;
-  background-color: rgb(210, 210, 210);
+	font-family: 'Futura Bold', 'Futura', sans-serif;
+	margin: 0;
+	background-image: radial-gradient(rgb(255, 215, 190), rgb(238, 238, 185));
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  background: #510303;
-}
-
-.title {
-  padding-top: 10px;
-  flex-wrap: wrap;
-  font-size: 20pt;
-  margin-right: 50px;
-  line-height: 120%;
-  color: #fff;
-}
-
-h1 {
-  flex-wrap: wrap;
-}
-
-.nav-bar {
-  flex-wrap: wrap;
-  color: #ddcc13;
-}
-
-ul {
-  flex-wrap: wrap;
-  display: flex;
-  padding: 10px;
-}
-
-a {
-  text-decoration: none;
-}
-
-h3 {
-  flex-wrap: flex;
-  color:#fff;
-  font-family: 'Futura Bold', 'Futura', sans-serif;
-  justify-content: space-between;
-  padding: 10px;
-}
-
-h3:hover {
-  visibility: visible;
-  color: #ddcc13;
-}
-/*
-text-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.25);
-text-decoration: dotted underline;
-*/
-
-h3:active {
-  visibility: visible;
-  color: #dd9013;
-} 
-
-.main {
-  display: flex;
-}
-
-#profile-picture {
-  position: absolute;
-  margin: 0px 50px 20px 10px;
-	border-radius: 50%;
-	width: 125px;
-	height: 150px;
-  box-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.25);
-}
-
-#profile-header {
-	width: 100%;
-}
-
-#mantra {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
-  font-size: 26pt;
-  padding: 10px;
-}
-
-#About, #Work, #Resume, #Contact {
-  font-size: 20pt;
-  color: #ddcc13;
-  line-height: 115%;
-  display: block;
-  padding: 20px 20px 60px 30px;
-}
-
-span {
-  text-decoration: underline;
-}
-
-aside {
-  margin: 0px 40px 0px 0px;
-  float: left;
-  text-align: right;
-  background-color: rgb(51, 63, 63);
-  height: 600px;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
 }
 
 .cards {
-  flex-wrap: wrap;
-  height: auto;
-  padding: 40px ;
-  margin: 20px 0px 40px 20px;
-  background-color: #510303;
+	display: flex;
+	flex-wrap: wrap;
+	background: #bb5858;
+	padding: 10px;
 }
 
-.cards:hover {
-  visibility: visible;
-  background-color: #d2d2d2;
-  color:#303029;
-	box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.50);
-  transition: all ease-in-out .75s;
+#card1, #card3 {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	margin: 7px;
+	height: auto;
+	background: #510303;
+	flex: 1 2 200px;
 }
 
-#contact {
-  display: flex;
-  color: #303029;
+a {
+	align-items: center;
 }
 
-/*
- A flex-basis of 200px sets the starting width
-  A flex-grow value of 1 allows the elements to evenly grow to fill the remaining space
-.card {
-  flex: 1 0 200px;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
+h1 {
+	padding: 10px;
+	display: 50%;
+	flex-wrap: wrap;
+	font-size: 20pt;
+	margin-right: 50px;
+	line-height: 120%;
+	color: #fff;
 }
-*/
+
+h3 {
+	
+	flex-wrap: flex;
+	color:#fff;
+	font-family: 'Futura Bold', 'Futura', sans-serif;
+	justify-content: space-between;
+	padding: 10px;
+  }
+  
+  h3:hover {
+	visibility: visible;
+	color: #ddcc13;
+  }
+  /*
+  text-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.25);
+  text-decoration: dotted underline;
+  */
+  
+  h3:active {
+	visibility: visible;
+	color: #dd9013;
+  } 
+
+#profile-picture {
+	position: absolute;
+	margin: 0px 50px 20px 10px;
+	border-radius: 50%;
+	width: 125px;
+	height: 150px;
+	box-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.25);
+}
+  
+#profile-header {
+	align-self: center;
+	display: flex;
+	width: 100%;
+	margin: 7px;
+	height: 200px;
+	background: #510303;
+	flex: 1 2 200px;
+}
+
+#mantra {
+	color:#333f3f;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	font-size: 26pt;
+	padding: 10px;
+}
+
+span {
+	text-decoration: underline;
+}
+
+aside {
+	margin: 0px 40px 0px 0px;
+	float: left;
+	text-align: right;
+	background-color: rgb(51, 63, 63);
+	height: 300px;
+}
+
+h2 {
+	color: #ddcc13;
+	font-size: 20px;
+	padding: 30px;
+}
+
+.info {
+	flex-wrap: wrap;
+	height: auto;
+	padding: 40px ;
+	margin: 20px 0px 40px 20px;
+	background-color: #510303;
+  }
+
+  .info:hover {
+	visibility: visible;
+	background-color: #d2d2d2;
+	color:#303029;
+	  box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.50);
+	transition: all ease-in-out .75s;
+  }
+
+  footer {
+	display: flex;
+	margin-top: 30px;
+	background-color: #333f3f;
+  }
+
+  #Contact {
+	flex-wrap: flex;
+	color: white
+  }
+  
+  .form {
+	padding-top: 20px;
+	flex-wrap: flex;
+  }
