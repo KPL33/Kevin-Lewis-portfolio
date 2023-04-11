@@ -16,11 +16,11 @@ header {
 }
 
 .title {
-  display: flex;
-  text-shadow: #ffffff;
+  padding-top: 10px;
   flex-wrap: wrap;
   font-size: 20pt;
   margin-right: 50px;
+  line-height: 120%;
   color: #fff;
 }
 
@@ -29,15 +29,41 @@ h1 {
 }
 
 .nav-bar {
-  display: flex;
   flex-wrap: wrap;
   color: #ddcc13;
 }
 
-h3 {
-  flex-wrap: flex;
+ul {
+  flex-wrap: wrap;
+  display: flex;
   padding: 10px;
 }
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  flex-wrap: flex;
+  color:#fff;
+  font-family: 'Futura Bold', 'Futura', sans-serif;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+h3:hover {
+  visibility: visible;
+  color: #ddcc13;
+}
+/*
+text-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.25);
+text-decoration: dotted underline;
+*/
+
+h3:active {
+  visibility: visible;
+  color: #dd9013;
+} 
 
 .main {
   display: flex;
@@ -63,10 +89,12 @@ h3 {
   padding: 10px;
 }
 
-h2 {
+#About, #Work, #Resume, #Contact {
   font-size: 20pt;
+  color: #ddcc13;
   line-height: 115%;
   display: block;
+  padding: 20px 20px 60px 30px;
 }
 
 span {
@@ -78,21 +106,23 @@ aside {
   float: left;
   text-align: right;
   background-color: rgb(51, 63, 63);
-  height: 500px;
-  padding: 15px 20px 60px 30px;
-}
-
-.intro-text {
-  color: #ddcc13;
-  padding: 0px 20px 60px 30px;
+  height: 600px;
 }
 
 .cards {
   flex-wrap: wrap;
   height: auto;
-  padding: 10px;
-  margin: 10px;
+  padding: 40px ;
+  margin: 20px 0px 40px 20px;
   background-color: #510303;
+}
+
+.cards:hover {
+  visibility: visible;
+  background-color: #d2d2d2;
+  color:#303029;
+	box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.50);
+  transition: all ease-in-out .75s;
 }
 
 #contact {

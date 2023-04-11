@@ -14,25 +14,28 @@
       <section class='title'>
         <h1>Kevin Lewis' Portfolio</h1>
       </section>
-      <section class="nav-bar">
-        <h3>About Me</h3>
-        <h3>Work</h3>
-        <h3>Resume</h3>
-        <h3>Contact</h3>
-      </section>
+      <ul class="nav-bar">
+        <a href="#About"><h3>About Me</h3></a>
+        <a href="#Work"><h3>Work</h3></a>
+        <a href="#Resume"><h3>Resume</h3></a>
+        <a href="#Contact"><h3>Contact</h3></a>
+      </ul>
     </header>
+
+<!--a href="#About-Me">About Me</a>-->
 
     <section>
       <img id="profile-picture" src="./assets/gs_no_shad.jpg" />
-      <img id="profile-header" src="assets/profile-header.jpg" />
+      <img id="profile-header" src="./assets/profile-header.jpg" />
       <h2 id="mantra"><em>Yoda had it wrong. The <span>first</span> thing you can do is try.</em></h2>
     </section>
     
     <main> 
       <aside>
-        <h2 class="intro-text">About<br>Me</h2>
-        <h2 class="intro-text">Work</h2>
-        <h2 class="intro-text">Resume</h2>
+        <h2 id="About">About<br>Me</h2>
+        <h2 id="Work">Work</h2>
+        <h2 id="Resume">Resume</h2>
+        <h2 id="Contact">Contact<br>Me</h2>
       </aside>
     
       <section class="cards">
@@ -46,9 +49,18 @@
       <section class="cards">
         descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text
       </section>
-    
     </main>
-    <footer id="contact">Contact Me</footer>
+    <footer>
+      <form action="#">
+        <label for="email">
+          Email: <input id="email" placeholder="Enter your email" />
+        </label>
+        <label for="message">
+          Message: <textarea id="message">Your Message</textarea>
+        </label>
+        <input type="submit" value="send message">
+      </form>
+    </footer>
   </body>
 
 </html>
