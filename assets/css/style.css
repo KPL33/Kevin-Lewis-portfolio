@@ -1,142 +1,135 @@
 body {
 	font-family: 'Futura Bold', 'Futura', sans-serif;
 	margin: 0;
-	background-image: radial-gradient(rgb(255, 215, 190), rgb(238, 238, 185));
+	background-image: radial-gradient(rgb(232, 192, 167), rgb(255, 255, 255));
 }
 
 header {
 	display: flex;
-	justify-content: space-between;
-	padding: 10px;
-}
-
-.cards {
-	display: flex;
 	flex-wrap: wrap;
-	background: #bb5858;
-	padding: 10px;
-}
-
-#card1, #card3 {
-	display: flex;
-	text-align: center;
-	align-items: center;
-	margin: 7px;
-	height: auto;
 	background: #510303;
-	flex: 1 2 200px;
 }
 
-a {
-	align-items: center;
+#profile-pic {
+	margin: 20px;
+	border-radius: 50%;
+	width: 170px;
+	height: 200px;
+	box-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.25);
 }
 
 h1 {
-	padding: 10px;
-	display: 50%;
-	flex-wrap: wrap;
-	font-size: 20pt;
-	margin-right: 50px;
+	font-size: 30pt;
 	line-height: 120%;
 	color: #fff;
 }
 
+h1, nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	flex: 1 0 200px;
+}
+
+
 h3 {
-	
-	flex-wrap: flex;
+	flex-wrap: wrap;
 	color:#fff;
 	font-family: 'Futura Bold', 'Futura', sans-serif;
-	justify-content: space-between;
-	padding: 10px;
-  }
-  
-  h3:hover {
+	justify-content: space-around;
+	text-align: center;
+	line-height: 150%;
+	padding: 30px;
+}
+
+h3:hover {
+	text-decoration: underline;
+	font-size: 15pt;
 	visibility: visible;
 	color: #ddcc13;
-  }
-  /*
-  text-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.25);
-  text-decoration: dotted underline;
-  */
+}
   
-  h3:active {
+h3:active {
 	visibility: visible;
 	color: #dd9013;
-  } 
-
-#profile-picture {
-	position: absolute;
-	margin: 0px 50px 20px 10px;
-	border-radius: 50%;
-	width: 125px;
-	height: 150px;
-	box-shadow: 0 4px 6px 0 rgb(34, 60, 80, 0.25);
-}
-  
-#profile-header {
-	align-self: center;
-	display: flex;
-	width: 100%;
-	margin: 7px;
-	height: 200px;
-	background: #510303;
-	flex: 1 2 200px;
-}
+} 
 
 #mantra {
 	color:#333f3f;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	text-align: center;
 	font-size: 26pt;
-	padding: 10px;
+	padding: 20px;
 }
 
 span {
 	text-decoration: underline;
 }
 
-aside {
-	margin: 0px 40px 0px 0px;
-	float: left;
-	text-align: right;
-	background-color: rgb(51, 63, 63);
-	height: 300px;
+main {
+  display: flex;
+  align-items: stretch;
+  flex-grow: 1;
+}
+
+.column {
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-around;
+	width: 200px;
+	flex: 1 0 15%;
+	padding: 10px;
+	text-align: center;
+	border-right: solid #333f3f;
+}
+
+#Projects {
+	line-height: 160%;
+}
+
+.card {
+	height: auto;
 }
 
 h2 {
+	background-color: #510303;
+	justify-content: center;
+	align-items: center;
 	color: #ddcc13;
 	font-size: 20px;
 	padding: 30px;
+	margin-bottom: 20px;
 }
 
 .info {
-	flex-wrap: wrap;
-	height: auto;
-	padding: 40px ;
-	margin: 20px 0px 40px 20px;
-	background-color: #510303;
-  }
-
-  .info:hover {
-	visibility: visible;
-	background-color: #d2d2d2;
-	color:#303029;
-	  box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.50);
-	transition: all ease-in-out .75s;
-  }
-
-  footer {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
 	display: flex;
-	margin-top: 30px;
-	background-color: #333f3f;
-  }
+	line-height: 150%;
+	background-color: rgb(134, 123, 123);
+	margin: auto;
+	flex-wrap: wrap;
+	width: 85%;
+	padding: 20px ;
+}
 
-  #Contact {
-	flex-wrap: flex;
-	color: white
-  }
+
+.info:hover {
+	visibility: visible;
+	background-color: white;
+	color:#303029;
+	box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.50);
+	transition: all ease-in-out .75s;
+}
+
+footer {
+	display: flex;
+
+}
   
-  .form {
+.form {
 	padding-top: 20px;
-	flex-wrap: flex;
-  }
+	flex-wrap: wrap;
+}

@@ -9,52 +9,51 @@
   </head>
 
   <body>
-    <header class='cards'>
-      <h1 id="card1">Kevin Lewis' Portfolio</h1>
-      <section id="card2">
-        <img id="profile-picture" src="./assets/gs_no_shad.jpg" />
-        <img id="profile-header" src="./assets/profile-header.jpg" />
-      </div>
-      <ul id="card3" id="links">
-        <a href="#About"><h3>About Me</h3></a>
-        <a href="#Work"><h3>Work</h3></a>
-        <a target="_blank" rel="noopener noreferrer" href="./assets/Kevin_Lewis_Resume_2023.pdf"><h3>Resume</h3></a>
-        <a href="#Contact"><h3>Contact</h3></a>
-      </ul>
+    <header>
+      <img id="profile-pic" src="./assets/gs_no_shad.jpg" alt="A photo of Kevin Lewis."/>     
+      <h1>Kevin Lewis' Portfolio</h1>
+      <nav>
+        <a href="#About" alt="Links to the 'About' section."><h3>About Me</h3></a>
+        <a href="#Projects" alt="Links to the 'Work' section."><h3>My Projects</h3></a>
+        <a target="_blank" rel="noopener noreferrer" href="./assets/Kevin_Lewis_Resume_2023.pdf" alt="Opens 'Resume' in a new tab"><h3>Resume</h3></a>
+        <a href="#Contact" alt="Links to the 'Contact' section."><h3>Contact</h3></a>
+      </nav>
     </header>
 
-    <p id="mantra"><em><strong>Yoda had it wrong. The <span>first</span> thing you can do is try.</strong></em></p>
+    <p id="mantra"><em><strong>The <span>first</span> thing you can do is try.</strong></em></p>
       
     <main>
-      <aside>
-        <h2 id="About">About<br>Me</h2>
-        <h2 id="Work">Work</h2>
+      <aside class="column">
+        <h2 id="About">About Me</h2>
+        <h2 id="Projects">My Projects</h2>
       </aside>
-      
-      <section class="info">
-        <p>descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text</p>
-      </section>
-
-      <section class="info">
-        <p>descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text descriptive text</p>
-      </section>
-
-      <footer>
-        <h2 id="Contact">Contact<br>Me</h2>
-        
-        <form clas ="form" action="#">
-          <label for="email">
-            Email: <input id="email" placeholder="Enter your email" />
-          </label>
-          
-          <label for="message">
-            Message: <textarea id="message">Your Message</textarea>
-          </label>
-          
-          <input type="submit" value="send message">
-        </form>
-      
-      </footer>
+      <div class="info">
+        <section class="card">
+          <p>I have over 23 years of experience in the industries of Design
+            and Publishing. For the past 15+ years, I served as Production Manager
+            for Publishers' Development Corporation. Due to budget cuts, my role
+            was absorbed and I am looking for a new opportunity to contribute to
+            the bright future of a stable company.
+          </p>
+        </section>
+      </div>
     </main>
+    <footer>
+    <h2 id="Contact">Contact<br>Me</h2>
+      
+      <form clas ="form" action="#">
+        <label for="email">
+          Email: <input id="email" placeholder="Enter your email" />
+        </label>
+        
+        <label for="message">
+          Message: <textarea id="message">Your Message</textarea>
+        </label>
+        
+        <input type="submit" value="send message">
+      </form>
+    
+    </footer>
+
   </body>
 </html>

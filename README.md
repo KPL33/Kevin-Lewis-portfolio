@@ -2,14 +2,20 @@
 
 
 • This project should highlight your strongest work as well as the thought processes behind it.
-• use placeholder images and names
-• Should have developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+• √use placeholder images and names
+• √Should have developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them√
 click one of the links in the navigation
-• Menu items at top should jump to that section on pg.
+• √Menu items at top should jump to that section on pg.√
 • Try an unfurling animation to reveal text about you.
-Make links enlarge slightly and change color when hovered on.
+• √Make links enlarge slightly and change color when hovered on.
 • Keep shadow, but find way to make sections highlight when hovered on.
-• In work section, add empty links that will lead to print, digital and app campaigns.
+• In work section, add empty links that will lead to print, digital and app campaigns. titled images of the developer's applications
+
+
+• application's image should be larger in size than the others when clicked on.
+• images of applications should redirect to that deployed application.
+• Use Media queries to esize the page or view the site on various screens and devices
+• Layout should be responsive 
 
 # 02 Advanced CSS: Portfolio
 
