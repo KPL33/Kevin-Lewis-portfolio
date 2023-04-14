@@ -90,6 +90,7 @@ main {
 }
 
 .card {
+	margin: 10px;
 	height: auto;
 }
 
@@ -125,11 +126,13 @@ h2 {
 }
 
 footer {
+	background-color: #510303;
+	align-items: center;
+	justify-content: center;
 	display: flex;
 
 }
   
 .form {
-	padding-top: 20px;
 	flex-wrap: wrap;
 }
