@@ -136,3 +136,13 @@ footer {
 .form {
 	flex-wrap: wrap;
 }
+
+#project2 {
+	width: 200px;
+	width: 200px;
+}
+
+#project2:hover {
+	box-shadow: 0 8px 12px 0 rgb(34, 60, 80, 0.50);
+	transition: all ease-in-out .75s;
+}
